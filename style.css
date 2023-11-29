@@ -117,3 +117,68 @@ h1 {
 .label-score {
   margin-bottom: 2rem;
 }
+
+@media screen and (max-width: 767px) {
+  header {
+    height: 20vh;
+    border-bottom: 5px solid #eee;
+  }
+
+  main {
+    height: 80vh;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .left,
+  .right {
+    width: 90%;
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 3rem;
+    position: static;
+    transform: none;
+    margin-top: 1rem;
+  }
+
+  .number {
+    font-size: 4rem;
+    width: 20%;
+    padding: 2rem 0;
+    margin-bottom: 1.5rem;
+    position: static;
+    transform: none;
+  }
+
+  .between,
+  .again {
+    position: static;
+    font-size: 0.5rem;
+    margin: 1rem;
+  }
+
+  .guess {
+    font-size: 3rem;
+    width: 40%;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+  }
+
+  .btn {
+    font-size: 1rem;
+    padding: 1.5rem 2rem;
+    margin: 1rem;
+  }
+
+  .message {
+    margin-bottom: 5rem;
+    height: auto;
+  }
+
+  .label-score {
+    margin-bottom: 1rem;
+  }
+}
